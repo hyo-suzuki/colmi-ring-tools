@@ -154,7 +154,7 @@ export class RingBleClient {
       throw new Error("Web Bluetooth is not available in this browser.");
     }
     const device = await navigator.bluetooth.requestDevice({
-      filters: [{ namePrefix: "C" }],
+      acceptAllDevices: true,
       optionalServices: [UART_SERVICE_UUID, DFU_SERVICE_UUID, DEVICE_INFO_SERVICE_UUID, "device_information"],
     });
     this.device = device;
