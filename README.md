@@ -8,7 +8,7 @@ The site includes:
 - a motion-to-MIDI controller
 - basic ring diagnostics and JSON export
 
-Live site: https://nosh118.github.io/colmi-ring-tools/
+Live site: https://hyo-suzuki.github.io/colmi-ring-tools/
 
 ## Supported Rings
 
